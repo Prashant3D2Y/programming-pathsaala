@@ -1,0 +1,275 @@
+/* .parent{
+  background-color: yellow;
+  width: 20;
+  height: 10;
+  margin: 50 10;
+  padding: 30px;
+  border: 1px solid color(srgb red green blue);
+  margin-left: 10;
+margin-right: 10;
+margin-top: 10;
+margin-bottom: 10;
+}
+.heading
+{
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20;
+    margin:  0 auto   ;
+    border-radius: 20px;
+    border: 1px solid color(srgb red green blue);
+    margin-left: 40;
+    margin-right: 10;
+    margin-top: 100;
+    margin-bottom: 10;
+    width: 250px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    font-stretch: normal;
+    font-size-adjust: none;
+    line-height: normal;
+}
+
+.img
+{
+    display: block;
+    margin: auto;
+    margin-right: auto;
+    width: 50;
+    
+}
+
+.father{
+    font-size: 2rem;
+  
+}
+.child {
+    font-size: 2em;
+  
+}
+.grandchild{
+    font-size: 2em;
+}
+.button {
+    background-color: #4CAF50;
+     /* Green */
+    /* border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4rem;
+    margin: 0px auto;
+    cursor: pointer;
+
+}
+.smallbutton{
+    margin: 0% auto;
+    font-size: 2rem;
+
+    width: 4em;
+    height: 3em;
+}
+.largebutton{
+    margin: 20% ;
+    font-size: 5rem;
+
+    width: 4em;
+    height: 3em;
+}
+
+.body{
+    background-color: rgb(255, 255, 255);
+    margin-left: 10;            
+
+}
+.parent1{
+    height: 100px;
+    background-color: rgba(161, 25, 22, 0.452);
+}
+
+.child2{
+    height: 200px;
+    width: 50%;
+    background-color: rgb(44, 190, 18);
+} */
+/* .parent3{ */
+    /* ol{
+    background-color: #efeff1;
+    }
+} */ */
+/* .parent3{
+    ul{
+    background-color: #de7113;
+    }
+} */
+
+/* .parent3
+    {
+    ul:nth-child(3){
+    background-color: #0bb817;
+    }
+
+    ul:nth-child(1){
+    background-color: #f8a60c;
+    }
+
+    /* ul:nth-child(1) li:nth-child(1){
+        background-color: #1297cb;
+    }
+    
+}*/
+
+
+/* 
+ul:nth-child(4) 
+{
+    li:nth-child(1){
+        background-color: rgb(98, 91, 193);
+}
+
+li:nth-child(3){
+    background-color: rgb(22, 195, 39);
+}
+li:nth-child(4){
+    background-color: rgb(210, 232, 12);
+}
+li:nth-child(2){
+    background-color: rgb(21, 195, 143);
+}
+
+}
+
+ol:nth-child(5) 
+{
+    li:nth-child(1){
+        background-color: rgb(98, 91, 193);
+}
+
+li:nth-child(3){
+    background-color: rgb(22, 195, 39);
+}
+li:nth-child(4){
+    background-color: rgb(210, 232, 12);
+}
+li:nth-child(2){
+    background-color: rgb(21, 195, 143);
+}
+
+}
+ol:nth-child(3) 
+{
+    li:nth-child(1){
+        background-color: rgb(98, 91, 193);
+}
+
+li:nth-child(3){
+    background-color: rgb(22, 195, 39);
+}
+li:nth-child(4){
+    background-color: rgb(210, 232, 12);
+}
+li:nth-child(2){
+    background-color: rgb(21, 195, 143);
+}
+
+} */ 
+
+/* 
+.parent3 ul{
+background-color: #4CAF50;
+}
+.child4>ol{
+    background-color: #3626b3;
+    }
+    
+    .parent3+ul{
+        background-color: #4CAF50;
+        }
+         */
+/* 
+         .parent{
+            background-color: aquamarine;
+            display: flex;
+            flex-wrap: wrap;
+         }
+         .child{
+            background-color: rgb(22, 195, 39);
+            border: 1px solid red;
+            width: 30px;
+            flex-grow: 3;
+            
+         }
+
+         .search-box{
+            flex-grow: 2;
+
+         }
+         .home{
+            flex-grow: 6;
+         }
+
+         .contact{
+            flex-grow: 4;
+            flex-shrink: 0;
+         }
+          */
+
+.parent1,
+.parent2
+,.parent3,
+.parent4
+,.parent5{
+    background-color: rgb(22, 195, 39);
+    display: flex;
+    border: 1px solid red;
+    width: 30px;
+    /* flex-grow: 3; */
+    
+}
+
+
+.parent1{
+    background-color: bisque;
+    display: flex;
+
+    border: 3px solid red;
+    justify-content: space-between;
+}
+
+.parent2{
+    background-color: blueviolet;
+    display: flex;
+    border: 3px solid gold;
+    justify-content: space-around;
+}
+
+.parent3{
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px solid blue;
+}
+
+ .parent4{
+    display: flex;
+    background-color: rgb(169, 234, 20);
+    border: 3px solid rgb(11, 156, 158);
+    justify-content: flex-start;
+    flex-wrap: wrap;   
+} 
+
+.parent5{
+    display: flex;
+    background-color: rgb(194, 24, 149);
+    border: 3px solid green;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+} 
