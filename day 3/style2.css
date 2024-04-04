@@ -1,0 +1,102 @@
+/* *{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+    transition-property: height width,opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    background-color: rgb(42, 73, 225);
+    color: aliceblue;
+    width: 20;
+    height: 10;
+    text-align: center;
+    margin: 50 10;
+    padding: 30px;
+    border: 1px solid color(srgb red green blue);
+    margin-left: 10;
+    margin-right: 10;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+@media( 400px <= width <=800px){
+    .parent{
+         background-color: rgb(143, 149, 174);
+
+      
+    }
+}
+@media( 800px <= width <=1500px){
+    .parent{
+         background-color: rgb(144, 194, 26);
+
+      
+    }
+} */
+
+.button-new{
+
+    margin-top: 270px;
+    margin-right: 300px;
+    
+    
+    font-size: 1.5rem;
+    padding: 0.7em;
+    background-color: rgb(24, 7, 212);
+    border-radius: 1em;
+text-align: 1em;
+text-decoration: none;
+position: relative;
+top: 50%;
+left:50%;
+
+transition-timing-function: ease-in-out;
+transition-duration: 1s;
+transition-property: scale;
+}
+
+.button-new:hover{
+    
+
+    scale: 2;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 0.7em;
+    background-color: rgb(52, 10, 219);
+    
+   
+}
+
+.button{
+    margin-left: 400px;
+    scale: 1;
+    position: absolute;
+    font-size: 1.5rem;
+    padding: 0.7em;
+    background-color: rgb(120, 212, 7);
+    border-radius: 1em;
+
+
+    animation-name: button-animation-type-1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes button-animation-type-1{
+    from{
+        bottom:300px;
+        left:40px;
+    }
+    to{
+        left:40px;
+        bottom:600px;
+    }
+        
+
+
+    }
+
