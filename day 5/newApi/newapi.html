@@ -1,0 +1,104 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table class="root"></table>
+
+
+    <script src="newscript.js"></script>
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <style >
+        body{
+            background-image: url(https://t4.ftcdn.net/jpg/02/66/38/15/360_F_266381525_alVrbw15u5EjhIpoqqa1eI5ghSf7hpz7.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-blend-mode: soft-light;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      #root {
+        margin: 20px; /* Adjust margin as needed */
+      }
+
+      table {
+        width: auto; /* Set width to auto */
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 8px; /* Adjust padding as needed */
+        border: 1px solid #ddd; /* Add borders for better readability */
+        text-align: left; /* Align text to the left */
+      }
+
+      th {
+        background-color: #e9f67a; /* Add background color to header */
+      }
+
+      #date, #tempmax, #tempmin{
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+            text-decoration: none;
+            text-transform: capitalize;
+            transition: 0.5s;
+            margin-left: 400px;
+            margin-right: 400px;
+
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            
+            
+        
+    </style>
+  </head>
+  <body >
+   
+
+   
+    <div class="main" >
+      <table id="root">
+        
+
+        
+
+        <tr>
+          <th id="date" style="background-color: rgb(68, 118, 210);">Date</th>
+          <th id="tempmax" style="background-color: rgb(225, 205, 17);">Maximum Temperature</th>
+          <th id="tempmin" style="background-color: rgb(3, 246, 246);">Minimum Temprature</th>
+          <th id="tempmin" style="background-color: rgb(3, 246, 7);">Conditions</th>
+        </tr>
+        <!-- Add your table rows here -->
+
+      </table>
+    </div>
+    <script src="newscript.js"></script>
+  </body>
+</html>
