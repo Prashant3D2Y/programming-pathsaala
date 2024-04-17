@@ -1,133 +1,91 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+   
+
     <style>
-       *
-       {
-        
-         margin: 0;
-         padding: 0;
-         box-sizing: border-box;
-         font-family: sans-serif;
-         font-size: 16px;
-         line-height: 1.5;
-         color: #333;
-         background-color: #90b871;
-         font-weight: 400;
-         font-style: normal;
-         text-decoration: none;
-         text-transform: none;
-         transition: all 0.3s ease-in-out;
-        
-
-       }
-      /* body {
-        margin: 0;
-        padding: 0;
-        font-family: sans-serif;
-      } */
-
-     
-
-      .product-card {
-  max-width: 500px;
-  margin: 50px;
-  border: 10px solid #8c6239; /* Brown color */
-  border-radius: 8px;
-  padding: 16px;
-  box-sizing: border-box;
-  background-color: #116bca; /* White background */
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  cursor: pointer;
-  display: inline-block;
-  margin-bottom: 20px;
-  margin-top: 200px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
-}
-
-.product-card:hover {
-  background-color: #f5f5f5; /* Light gray background on hover */
-  transform: translateY(-5px); /* Move card up slightly on hover */
-}
-
-.product-card h2 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333; /* Dark text color */
-  margin-bottom: 10px;
-}
-
-.product-card p {
-  color: #666; /* Medium text color */
-  margin-bottom: 10px;
-}
-h4{
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  color: #333; /* Dark text color */
-  margin-bottom: 10px;
-  border-radius: 8px;
-}
-p{
-  
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  color: #333; /* Dark text color */
-  margin-bottom: 10px;
-  border-radius: 8px;
-}
-
-/* .product-card img {
-  max-width: 100%;
-  height: auto;
-  justify-content: center;
-  border-radius: 8px;
-  margin-bottom: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect 
-  
-}*/
- 
-  
- 
-img {
-      max-width: 100% ;
-      height: 300px;
-      background-size: cover;
-      background-position: center;
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
       justify-content: center;
-      border-radius: 8px;
-      
-      
-    
-
-    }  
-
-    button{
+      align-items: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 10px;
       background-color: rgb(255, 255, 255);
       border: none;
       color: rgb(0, 0, 0);
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
+      margin: 10px;
       cursor: pointer;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
+      
+      
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
 
-    .price{
-      font-size: 20px;
-      font-weight: bold;
-      color: #333; /* Dark text color */
-      margin-bottom: 10px;
-    }
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted to use auto-fit */
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: #a18484;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift the card slightly on hover */
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.card h3 {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.card p {
+  color: #eee;
+  margin-top: 5px;
+}
+
+.card .price {
+  color: #5d16e1;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: top;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+header {
+
+  background-color: #333;
+  padding: 20px;
+  background-color: #333;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
     </style>
   </head>
-  <body>
-    PRODUCTS__CARDS
-  </body>
+  <header><h1>THIS IS PRODUCTS VIEW PAGE</h1></header>
+  __PRODUCTS__CARDS__
 </html>
