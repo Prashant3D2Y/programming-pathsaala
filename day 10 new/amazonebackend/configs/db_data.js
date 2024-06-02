@@ -13,8 +13,10 @@ const addProductsToDB = () => {
             console.log('Success:: ', idx);
         }).catch((err)=>{
             console.log('Error:: ', idx)
+            
         });
     });
 }
 
 module.exports = addProductsToDB;
+

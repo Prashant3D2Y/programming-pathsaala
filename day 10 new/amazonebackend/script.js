@@ -3,6 +3,9 @@ const productsRouter= require('./Routes/productsRoutes.js');
 const app = express();
 const mongoose = require('mongoose');
 
+app.get('/', (req,res)=>{
+    res.send('Hello');
+})
 // body parsel
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
