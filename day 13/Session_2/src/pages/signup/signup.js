@@ -1,6 +1,7 @@
-import Navbar from "../common/Navbar/navbar";
+
 import { useState } from "react";
 import "./signup.css";
+import Navbar from "../common/Navbar/navbar";
 
 const Signup = () => {
     const [email, setEmail] = useState("");
@@ -23,7 +24,7 @@ const Signup = () => {
 
     return (
         <div>
-            <Navbar page='signup'/>
+            <Navbar page="signup"/>
             <div className="signup-container">
                 <h2>Signup</h2>
                 <input 

@@ -34912,10 +34912,10 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _navbar = require("../common/Navbar/navbar");
-var _navbarDefault = parcelHelpers.interopDefault(_navbar);
 var _react = require("react");
 var _signupCss = require("./signup.css");
+var _navbar = require("../common/Navbar/navbar");
+var _navbarDefault = parcelHelpers.interopDefault(_navbar);
 var _s = $RefreshSig$();
 const Signup = ()=>{
     _s();
@@ -34942,7 +34942,7 @@ const Signup = ()=>{
                 page: "signup"
             }, void 0, false, {
                 fileName: "src/pages/signup/signup.js",
-                lineNumber: 26,
+                lineNumber: 27,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34952,7 +34952,7 @@ const Signup = ()=>{
                         children: "Signup"
                     }, void 0, false, {
                         fileName: "src/pages/signup/signup.js",
-                        lineNumber: 28,
+                        lineNumber: 29,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -34962,7 +34962,7 @@ const Signup = ()=>{
                         onChange: (e)=>setEmail(e.target.value)
                     }, void 0, false, {
                         fileName: "src/pages/signup/signup.js",
-                        lineNumber: 29,
+                        lineNumber: 30,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -34972,7 +34972,7 @@ const Signup = ()=>{
                         onChange: (e)=>setPassword(e.target.value)
                     }, void 0, false, {
                         fileName: "src/pages/signup/signup.js",
-                        lineNumber: 35,
+                        lineNumber: 36,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -34980,19 +34980,19 @@ const Signup = ()=>{
                         children: "Signup"
                     }, void 0, false, {
                         fileName: "src/pages/signup/signup.js",
-                        lineNumber: 41,
+                        lineNumber: 42,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/pages/signup/signup.js",
-                lineNumber: 27,
+                lineNumber: 28,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/pages/signup/signup.js",
-        lineNumber: 25,
+        lineNumber: 26,
         columnNumber: 9
     }, undefined);
 };
@@ -35019,10 +35019,10 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _pointContext = require("../context/pointContext");
 var _pointContextDefault = parcelHelpers.interopDefault(_pointContext);
-var _navbar = require("../common/Navbar/navbar");
-var _navbarDefault = parcelHelpers.interopDefault(_navbar);
 var _react = require("react");
 var _loginCss = require("./login.css");
+var _navbar = require("../common/Navbar/navbar");
+var _navbarDefault = parcelHelpers.interopDefault(_navbar);
 var _s = $RefreshSig$();
 const Login = ()=>{
     _s();
