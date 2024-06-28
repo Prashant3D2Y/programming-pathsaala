@@ -8,7 +8,6 @@ const generateImage = async (req, res) => {
     let imageUrl = "";
     try{
         const res = await fetch("https://api.hotpot.ai/art-maker-sdte-zmjbcrr", {
-  fetch("https://api.hotpot.ai/art-maker-sdte-zmjbcrr", {
   "headers": {
     "accept": "*/*",
     "accept-language": "en-US,en;q=0.9,hi;q=0.8",
