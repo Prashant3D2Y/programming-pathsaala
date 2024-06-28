@@ -23,12 +23,12 @@ const generateImage = async (req, res) => {
   },
   "referrer": "https://hotpot.ai/",
   "referrerPolicy": "strict-origin-when-cross-origin",
-  "body": "------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"seedValue\"\r\n\r\nnull\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"inputText\"\r\n\r\n${searchText}\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"width\"\r\n\r\n512\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"height\"\r\n\r\n512\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"styleId\"\r\n\r\n49\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"styleLabel\"\r\n\r\nPhoto General 1\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"isPrivate\"\r\n\r\nfalse\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"price\"\r\n\r\n0\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"requestId\"\r\n\r\n8-hKkKNrEZS16bmff\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"resultUrl\"\r\n\r\nhttps://hotpotmedia.s3.us-east-2.amazonaws.com/8-hKkKNrEZS16bmff.png\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp--\r\n",
+  "body": `------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"seedValue\"\r\n\r\nnull\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"inputText\"\r\n\r\n${searchText}\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"width\"\r\n\r\n512\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"height\"\r\n\r\n512\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"styleId\"\r\n\r\n49\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"styleLabel\"\r\n\r\nPhoto General 1\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"isPrivate\"\r\n\r\nfalse\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"price\"\r\n\r\n0\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"requestId\"\r\n\r\n8-hKkKNrEZS16bmff\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp\r\nContent-Disposition: form-data; name=\"resultUrl\"\r\n\r\nhttps://hotpotmedia.s3.us-east-2.amazonaws.com/8-hKkKNrEZS16bmff.png\r\n------WebKitFormBoundaryb7twkbYXEduqQiXp--\r\n`,
   "method": "POST",
   "mode": "cors",
   "credentials": "include"
 });
-        // n${searchText}\
+        // n${searchText}\x
         imageUrl  = await res.json();   
         let imageUrlForMongodb = await downloadAndUploadImage(imageUrl,searchText);
         imageCloudURL = imageUrlForMongodb;
