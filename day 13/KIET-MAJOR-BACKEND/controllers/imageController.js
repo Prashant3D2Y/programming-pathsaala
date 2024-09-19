@@ -11,7 +11,7 @@ const generateImage = async (req, res) => {
   "headers": {
     "accept": "*/*",
     "accept-language": "en-US,en;q=0.9,hi;q=0.8",
-    "api-token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTk1NjczNzMsImV4cCI6MTcxOTU3NDU3M30.KO2gZ5hN3ZXXiEEZ8MDXnz7LdK2XFWVmTVeJo55iCMs",
+    "api-token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3",
     "authorization": "hotpot-t2mJbCr8292aQzp8CnEPaK",
     "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryb7twkbYXEduqQiXp",
     "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
